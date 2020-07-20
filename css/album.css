@@ -1,0 +1,25 @@
+
+#content{ 
+    position: relative; 
+    z-index: 2; 
+    width: 400px; 
+    margin: 50px auto; 
+    padding: 20px; 
+    background: whitesmoke;
+    -moz-box-shadow: 0 0 20px black; 
+    -webkit-box-shadow: 0 0 20px black; 
+    box-shadow: 0 0 20px black;
+    font-family: 'Grenze Gotisch', cursive;
+    color:#272727;
+    opacity: 0.95;
+}
+
+
+a{
+    text-decoration: none;
+    color: #2E9CCA;
+    font-size: large;
+}
+a:hover{
+    color: rgb(60, 193, 250);
+}

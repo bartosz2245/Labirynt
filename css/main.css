@@ -1,0 +1,64 @@
+body{
+background-color: #37474F;
+color: whitesmoke;
+font-family: 'Grenze Gotisch', cursive;
+text-align: center;
+font-size: 25px;
+}
+
+a.text{
+    color:rgb(182, 177, 177);
+}
+a.text:hover{
+    color: whitesmoke;
+}
+
+a.album{
+    color: rgb(34, 123, 175);
+}
+a.album:hover{
+    color: rgb(53, 165, 240);
+}
+
+a.yt{
+    color:#cc0000;
+}
+a.yt:hover{
+    color: #ff0606;
+}
+
+.btn {
+    background-color: #2E9CCA;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+.btn:hover {
+    background-color: DodgerBlue;
+}
+.inny{    max-height: 300px;
+    background: whitesmoke;
+    overflow: auto;
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 3em;
+    font: 100%/1.4 serif;
+    border: 1px solid rgba(0,0,0,0.25)}
+
+.inny::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+.inny::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.inny::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+   border-radius: 20px 20px;
+}
